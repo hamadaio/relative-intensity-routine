@@ -5,7 +5,7 @@ This project contains MATLAB scripts for analyzing the relative intensity of flu
 ## Project Structure
 
 - **`ais.m`, `ais_z3.m`**: Main scripts for single-cell analysis. These scripts guide the user through loading images, defining the axon path, and performing the analysis. `ais_z3.m` is a newer version adapted for images from a Zeiss confocal microscope.
-- **`x3_channel_script.m`, `x3channel_modified_MH.m`, `mbp.m`**: Scripts for batch processing and analysis of multiple datasets. They automate the process of loading, smoothing, normalizing, and averaging data from multiple experiments.
+- **`x3channel_script.m`, `x3channel_script_mod.m`, `mbp.m`**: Scripts for batch processing and analysis of multiple datasets. They automate the process of loading, smoothing, normalizing, and averaging data from multiple experiments.
 - **`flib/`**: A library of MATLAB functions used by the main scripts for data manipulation, including loading, smoothing, normalization, interpolation, and plotting.
 - **`input/`**: Directory containing the input data files. Each file typically represents a single cell's fluorescence intensity profile, with the first column being the distance along the axon and subsequent columns representing the intensity values for different channels.
 - **`output/`**: Directory where the analysis results, such as averaged data and plots, are saved.
